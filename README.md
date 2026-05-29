@@ -1,4 +1,8 @@
-# Barred Awake 🦉
+<p align="center">
+  <img src="assets/logo.png" width="160" alt="Barred Awake logo — a wide-awake owl">
+</p>
+
+<h1 align="center">Barred Awake 🦉</h1>
 
 A tiny macOS **menu bar** app that keeps your Mac awake. Named after the
 barred owl — its eyes are **shut when off** and **wide open when on**.

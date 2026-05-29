@@ -4,8 +4,8 @@ import AppKit
 /// wide open when `awake` is true. Rendered as a template image so it
 /// tints itself to the menu bar (light/dark, active/inactive).
 enum OwlIcon {
-    static func image(awake: Bool) -> NSImage {
-        let size = NSSize(width: 18, height: 18)
+    static func image(awake: Bool, side: CGFloat = 18) -> NSImage {
+        let size = NSSize(width: side, height: side)
         let image = NSImage(size: size, flipped: false) { rect in
             draw(in: rect, awake: awake)
             return true
