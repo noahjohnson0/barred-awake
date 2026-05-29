@@ -55,7 +55,7 @@ final class SleepGuard {
 
     // MARK: - Clamshell (lid-shut) sleep
 
-    /// `pmset -a disablesleep <0|1>` — needs admin, so run it through an
+    /// `pmset -a disablesleep <0|1>` needs admin, so run it through an
     /// authorization prompt. Returns false if it didn't apply.
     private func setLidSleepDisabled(_ disabled: Bool) -> Bool {
         let value = disabled ? "1" : "0"

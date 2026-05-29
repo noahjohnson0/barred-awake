@@ -29,8 +29,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func refreshIcon() {
         statusItem.button?.image = OwlIcon.image(awake: SleepGuard.shared.isAwake)
         statusItem.button?.toolTip = SleepGuard.shared.isAwake
-            ? "Barred Awake — keeping your Mac awake"
-            : "Barred Awake — sleeping normally"
+            ? "Barred Awake: keeping your Mac awake"
+            : "Barred Awake: sleeping normally"
     }
 
     private func buildMenu() {
@@ -97,6 +97,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 let app = NSApplication.shared
 let delegate = AppDelegate()
 app.delegate = delegate
-// Menu-bar only — no Dock icon, no main window.
+// Menu-bar only: no Dock icon, no main window.
 app.setActivationPolicy(.accessory)
 app.run()
