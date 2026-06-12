@@ -1,9 +1,14 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.png">
-    <img src="docs/assets/logo-light.png" alt="barred-awake" width="200">
-  </picture>
-</p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="220" valign="middle">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-dark.png">
+<img src="docs/assets/logo-light.png" alt="barred-awake" width="200">
+</picture>
+</td>
+<td valign="middle"><h1>B&nbsp;A&nbsp;R&nbsp;R&nbsp;E&nbsp;D &nbsp; A&nbsp;W&nbsp;A&nbsp;K&nbsp;E</h1></td>
+</tr>
+</table>
 
 <p align="center">
   <img src="assets/logo.png" width="160" alt="Barred Awake logo, a wide-awake owl">
