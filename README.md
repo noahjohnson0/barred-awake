@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="docs/assets/logo.png" alt="barred-awake" width="200">
+</p>
+
+<p align="center">
   <img src="assets/logo.png" width="160" alt="Barred Awake logo, a wide-awake owl">
 </p>
 
